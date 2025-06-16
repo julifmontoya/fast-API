@@ -279,8 +279,10 @@ def test_delete_ticket(created_ticket):
     assert response.status_code == 200 or response.status_code == 204
 ```
 
-## 5. Run the app:
+## 5. Run the app
+```
 uvicorn app.main:app --reload
+```
 
 ## 6. Swagger / OpenAPI Docs
 - Swagger UI: http://localhost:8000/docs
