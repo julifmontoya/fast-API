@@ -1,11 +1,13 @@
 # Learning Flask-API Fast with Senior-Level Structure
 We'll build a simple Ticket Management System with these 5 endpoints:
 
+```
 POST /tickets – Create a new ticket
 GET /tickets – List all tickets
 GET /tickets/{ticket_id} – Get a single ticket
 PUT /tickets/{ticket_id} – Update a ticket
 DELETE /tickets/{ticket_id} – Delete a ticket
+```
 
 ## Run app
 ```
