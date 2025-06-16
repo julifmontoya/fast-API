@@ -30,6 +30,7 @@ uvicorn app.main:app --reload
 │   │   └── ticket_service.py
 │
 ├── tests/
+│   └── conftest.py
 │   └── test_tickets.py
 │
 ├── .env
@@ -199,7 +200,7 @@ app = FastAPI(
 app.include_router(ticket_routes.router)
 ```
 
-## 4. tests/test_tickets.py
+## 4. tests
 In app/tests/conftest
 
 ```
